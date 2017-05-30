@@ -1,0 +1,59 @@
+.form-control{
+  width:100%;
+}
+.first{
+margin-right:50px;
+border:black;
+}
+.u{
+  font-size:13pt;
+}
+.glyphicon-upload{
+  font-size:20pt;
+}
+#file{
+  display:none;
+}
+.form-input{
+  width:100%;
+  height:40px;
+  border:solid 1px rgb(24, 145, 142);
+  border-radius:5px;
+  padding:5px;
+}
+.form-input>input{
+  border:0px;
+  font-size:12pt;
+  font-family:sans-serif;
+  margin-left:2px;
+  width:90%;
+}
+.file-input>.btn{
+}
+.file-input{
+  width:100%;
+  height:60px;
+  border:solid 1px rgb(24, 145, 142);
+  border-radius:5px;
+  padding:5px;
+}
+
+.glyphicon{
+color:rgb(5, 130, 81);
+
+}
+
+.img-name{
+  font-size:13pt;
+}
+.fileInfo{
+  padding:5px;
+}
+
+
+@media (max-width:512px)
+{
+.form-input>input{
+width:80%;
+}
+}
